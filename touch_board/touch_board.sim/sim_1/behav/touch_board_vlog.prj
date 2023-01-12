@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/new/vga_control.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/new/reg_init.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/new/sccb_sender.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog blk_mem_gen_v8_3_3  "../../../touch_board.ip_user_files/ipstatic/blk_mem_gen_v8_3_3/simulation/blk_mem_gen_v8_3.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/new/vga_display.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/new/camera_get_pic.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/new/binarization.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/new/camera_init.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../touch_board.srcs/sources_1/new/touch_board.v" --include "../../../touch_board.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

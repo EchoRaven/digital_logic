@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sat Jan 07 17:20:59 2023">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="946e720d89ba40998b5bb5bd6d72420c" type="ProjectID"/>
+<property name="ProjectIteration" value="349" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddCfgMem" value="6" type="JavaHandler"/>
+<property name="AddSources" value="33" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="32" type="JavaHandler"/>
+<property name="CoreView" value="6" type="JavaHandler"/>
+<property name="CustomizeCore" value="3" type="JavaHandler"/>
+<property name="EditDelete" value="14" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="4" type="JavaHandler"/>
+<property name="LaunchOpenTarget" value="2" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="246" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="308" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="46" type="JavaHandler"/>
+<property name="ProgramDevice" value="256" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="5" type="JavaHandler"/>
+<property name="RecustomizeCore" value="8" type="JavaHandler"/>
+<property name="RefreshDevice" value="3" type="JavaHandler"/>
+<property name="RunBitgen" value="349" type="JavaHandler"/>
+<property name="RunImplementation" value="3" type="JavaHandler"/>
+<property name="RunSchematic" value="2" type="JavaHandler"/>
+<property name="RunSynthesis" value="22" type="JavaHandler"/>
+<property name="SaveDesign" value="11" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="16" type="JavaHandler"/>
+<property name="ShowView" value="285" type="JavaHandler"/>
+<property name="SimulationClose" value="3" type="JavaHandler"/>
+<property name="SimulationRun" value="5" type="JavaHandler"/>
+<property name="ToggleSelectAreaMode" value="1" type="JavaHandler"/>
+<property name="ToolsTemplates" value="1" type="JavaHandler"/>
+<property name="UpdateSourceFiles" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="2" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="42" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="22" type="JavaHandler"/>
+<property name="ZoomIn" value="4" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="Binarization.v, 213, 130" value="1" type="GuiResourceData"/>
+<property name="Binarization.v, 330, 354" value="1" type="GuiResourceData"/>
+<property name="Bluetooth.v, 192, 206" value="1" type="GuiResourceData"/>
+<property name="Bluetooth.v, 284, 207" value="1" type="GuiResourceData"/>
+<property name="Bluetooth.v, 506, 210" value="1" type="GuiResourceData"/>
+<property name="Bluetooth.v, 636, 65" value="1" type="GuiResourceData"/>
+<property name="CameraAttrSet.v, 389, 260" value="1" type="GuiResourceData"/>
+<property name="CameraAttrSet.v, 400, 114" value="1" type="GuiResourceData"/>
+<property name="CameraAttrSet.v, 432, 368" value="1" type="GuiResourceData"/>
+<property name="CameraAttrSet.v, 574, 369" value="1" type="GuiResourceData"/>
+<property name="CameraAttrSet.v, 650, 375" value="1" type="GuiResourceData"/>
+<property name="CameraGetData.v, 375, 94" value="1" type="GuiResourceData"/>
+<property name="CameraGetData.v, 380, 332" value="1" type="GuiResourceData"/>
+<property name="CameraGetData.v, 393, 271" value="1" type="GuiResourceData"/>
+<property name="CameraGetData.v, 413, 301" value="1" type="GuiResourceData"/>
+<property name="CameraGetData.v, 414, 259" value="1" type="GuiResourceData"/>
+<property name="Display7.v, 320, 282" value="1" type="GuiResourceData"/>
+<property name="Display7.v, 335, 90" value="1" type="GuiResourceData"/>
+<property name="Display7.v, 356, 252" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 114, 221" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 134, 369" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 145, 179" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 145, 241" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 145, 304" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 148, 336" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 149, 369" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 171, 374" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 194, 163" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 201, 138" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 217, 329" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 235, 371" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 25, 329" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 327, 281" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 332, 326" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 363, 251" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 441, 233" value="1" type="GuiResourceData"/>
+<property name="LinearFitting.v, 514, 277" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SELECT_AREA, Schematic_select_area" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ZOOM_IN, Schematic_zoom_in" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, LinearFitting (LinearFitting.v" value="30" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Open Target], 38, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Program Device], 39, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Open Hardware Manager], 37, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Open Synthesized Design], 18, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Synthesized Design, Schematic], 29, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Synthesized Design, Schematic], 30, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NetlistSchematicView_SHOW_CELLS_IN_THIS_SCHEMATIC, 113 Cells" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NetlistSchematicView_SHOW_IO_PORTS_IN_THIS_SCHEMATIC, 41 I/O Ports" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NetlistSchematicView_SHOW_NETS_IN_THIS_SCHEMATIC, 274 Nets" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_SCHEMATIC, Schematic" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SchematicView_PREVIOUS, Schematic_previousview" value="1" type="GuiResourceData"/>
+<property name="RegInit.v, 123, 124" value="1" type="GuiResourceData"/>
+<property name="RegInit.v, 173, 127" value="1" type="GuiResourceData"/>
+<property name="RegInit.v, 208, 287" value="1" type="GuiResourceData"/>
+<property name="RegInit.v, 354, 234" value="1" type="GuiResourceData"/>
+<property name="Sccb.v, 138, 159" value="1" type="GuiResourceData"/>
+<property name="Sccb.v, 174, 83" value="1" type="GuiResourceData"/>
+<property name="Sccb.v, 181, 167" value="1" type="GuiResourceData"/>
+<property name="Sccb.v, 272, 297" value="1" type="GuiResourceData"/>
+<property name="Sccb.v, 351, 311" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 115, 313" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 117, 313" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 121, 315" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 148, 322" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 222, 377" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 256, 366" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 286, 408" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 290, 342" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 295, 426" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 298, 368" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 303, 113" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 456, 187" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 71, 124" value="1" type="GuiResourceData"/>
+<property name="VGA.v, 95, 161" value="1" type="GuiResourceData"/>
+<property name="VGAPosControl.v, 254, 357" value="1" type="GuiResourceData"/>
+<property name="VGAPosControl.v, 329, 291" value="1" type="GuiResourceData"/>
+<property name="VGAPosControl.v, 372, 125" value="1" type="GuiResourceData"/>
+<property name="VGAPosControl.v, 393, 225" value="1" type="GuiResourceData"/>
+<property name="VGAPosControl.v, 60, 388" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="171" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="125" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

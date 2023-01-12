@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jan 02 16:05:41 2023
+# Process ID: 20640
+# Current directory: C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.runs/synth_1
+# Command line: vivado.exe -log touch_board.vds -mode batch -messageDb vivado.pb -notrace -source touch_board.tcl
+# Log file: C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.runs/synth_1/touch_board.vds
+# Journal file: C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source touch_board.tcl -notrace
+Command: synth_design -top touch_board -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 30440 
+ERROR: [Synth 8-1769] cannot open verilog file C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.runs/synth_1/.Xil/Vivado-20640-thb/realtime/clk_wiz_0_stub.v
+Failed to read verilog 'C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.runs/synth_1/.Xil/Vivado-20640-thb/realtime/clk_wiz_0_stub.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+2 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 02 16:05:45 2023...

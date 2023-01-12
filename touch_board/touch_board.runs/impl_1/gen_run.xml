@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1673015676">
+  <File Type="ROUTE-STATUS-PB" Name="LinearFitting_route_status.pb"/>
+  <File Type="PA-TCL" Name="LinearFitting.tcl"/>
+  <File Type="OPT-DCP" Name="LinearFitting_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="LinearFitting_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="LinearFitting_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="LinearFitting.vdi"/>
+  <File Type="PWROPT-DRC" Name="LinearFitting_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="LinearFitting_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="LinearFitting_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="LinearFitting.hwdef"/>
+  <File Type="OPT-TIMING" Name="LinearFitting_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="LinearFitting_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="LinearFitting_placed.dcp"/>
+  <File Type="PLACE-IO" Name="LinearFitting_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="LinearFitting_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="LinearFitting_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="LinearFitting_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="LinearFitting_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="LinearFitting_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="LinearFitting_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="LinearFitting_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="LinearFitting_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="LinearFitting_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="LinearFitting_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="LinearFitting_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="LinearFitting_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="LinearFitting_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="LinearFitting_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="LinearFitting_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="LinearFitting_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="LinearFitting_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="LinearFitting_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="LinearFitting.bit"/>
+  <File Type="ROUTE-PWR" Name="LinearFitting_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="LinearFitting_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="LinearFitting_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="LinearFitting_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="LinearFitting_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="LinearFitting_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="LinearFitting_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="LinearFitting_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="LinearFitting_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="LinearFitting_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="LinearFitting_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="LinearFitting_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="LinearFitting_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="LinearFitting_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="LinearFitting.bin"/>
+  <File Type="BITSTR-MSK" Name="LinearFitting.msk"/>
+  <File Type="BITSTR-RBT" Name="LinearFitting.rbt"/>
+  <File Type="BITSTR-NKY" Name="LinearFitting.nky"/>
+  <File Type="BITSTR-BMM" Name="LinearFitting_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="LinearFitting.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="LinearFitting.sysdef"/>
+  <File Type="BG-BGN" Name="LinearFitting.bgn"/>
+  <File Type="BG-DRC" Name="LinearFitting.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/RegInit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGAPosControl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Sccb.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Display7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CameraAttrSet.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Binarization.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/CameraGetData.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/CameraGetData.v"/>
+        <Attr Name="ImportTime" Val="1672996175"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Bluetooth.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LinearFitting.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LinearFitting"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

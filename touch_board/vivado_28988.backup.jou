@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Jan 06 20:56:03 2023
+# Process ID: 28988
+# Current directory: C:/Users/thb20/Desktop/Big_homework/touch_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24296 C:\Users\thb20\Desktop\Big_homework\touch_board\touch_board.xpr
+# Log file: C:/Users/thb20/Desktop/Big_homework/touch_board/vivado.log
+# Journal file: C:/Users/thb20/Desktop/Big_homework/touch_board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/CameraGetData.v
+add_files -norecurse -scan_for_includes C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/CameraGetData.v
+import_files -norecurse C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/CameraGetData.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/VGA.v w ]
+add_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/VGA.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/vga_display.v
+close [ open C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/VGAPosControl.v w ]
+add_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/VGAPosControl.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/vga_control.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.runs/impl_1/LinearFitting.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.runs/impl_1/LinearFitting.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+remove_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/binarization.v
+close [ open C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/Binarization.v w ]
+add_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/Binarization.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/CameraAttrSet.v w ]
+add_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/CameraAttrSet.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/camera_init.v
+close [ open C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/RegInit.v w ]
+add_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/RegInit.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/reg_init.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/Sccb.v w ]
+add_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/Sccb.v
+update_compile_order -fileset sources_1
+remove_files C:/Users/thb20/Desktop/Big_homework/touch_board/touch_board.srcs/sources_1/new/sccb_sender.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
